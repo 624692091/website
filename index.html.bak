@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <!-- scrollrevealjs -->
+    <!--<script src="./js/scrollreveal.min.js"></script>-->
+    <script src="./js/inedx.js"></script>
+   <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <title>凡鲸网络工作室</title>
+    <meta name="Description" content="凡鲸网络工作室是一家创新型企业">
+    <meta name="keywords" content="凡鲸网络工作室,网页关键词">
+</head>
+
+<body>
+    <!-- 页面加载 -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部区域 -->
+    <header>
+       <!-- 顶部介绍 -->
+        <div class="textTop">
+            <div class="content">
+                <p>欢迎光临凡鲸网络工作室</p>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <nav>
+            <div class="content">
+                <div class="logo">凡鲸网络工作室</div>
+                <!-- 汉堡按钮 -->
+                <div class="burger">
+                    <div class="top-line"></div>
+                    <div class="middle-line"></div>
+                    <div class="bottom-line"></div>
+                </div>
+                <!--导航栏 -->
+                <div class="nav">
+                    <ul>
+                        <li>首页</li>
+                        <li>关于我们</li>
+                        <li>团队介绍</li>
+                        <li>服务流程</li>
+                        <li>成功案例</li>
+                        <li>联系我们</li>
+                        <li>此处点击无效，请返回主页上翻</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="banner">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bannerText">
+                        <!-- 文字容器，统一由h1控制 -->
+                        <h1 class="typewriter">
+                            <!-- 使用span显示文字, data-text为Json格式的数组 -->
+                            <span
+                            id="text"
+                            data-text='["凡鲸网络工作室", "成就千万IT职业人", "程序员梦起航的地方"]'
+                            ></span>
+                            <!-- 闪烁的光标 -->
+                            <span class="mark"></span>
+                        </h1>
+                        <p>服务创造价值</p>
+                        <p>向上翻动</p>
+                    </div>
+                    <a href="">
+                        <img src="./images/banner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bannerText">
+                        <h1>凡鲸网络工作室</h1>
+                        <p>服务创造价值</p>
+                        <p>立即查看</p>
+                    </div>
+                    <a href="">
+                        <img src="./images/banner01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bannerText">
+                        <h1>凡鲸网络工作室</h1>
+                        <p>服务创造价值</p>
+                        <p>立即查看</p>
+                    </div>
+                    <a href="">
+                        <img src="./images/banner03.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <main>
+        <section class="bgColorWhite">
+            <div class="aboutus content">
+                <div class="abHd">
+                    <h1><span>ABOUTUS</span>关于我们</h1>
+                </div>
+                <div class="adBd">
+                    <h1>工作室简介</h1>
+                    <p>
+                        凡鲸网络工作室自2022年05月创立以来，坚持不懈
+                        的进行自我挑战，满足客户的需求变化及无法预测的市
+                        场变化，凡鲸网络工作室 建立于2021年团队涉及网站搭建,小程序开发,软件开发团队有设计师 前后端工程师，剪辑师.
+                    </p>
+                    <h1>工作室秉承</h1>
+                    <p>
+                        一直秉承"以人为本、客户为尊、永续创新"的价值观，
+                        坚持"以微笑收获友善， 以尊重收获理解，以责任收
+                        获支持，以谦卑收获成长"的行为观向客户提供全面
+                        优质的互联网应用服务。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- 服务流程 -->
+        <section class="bgColorDefault">
+            <div class="service content">
+                <div class="hd">
+                    <h1><span>SERVIC</span>服务流程</h1>
+                </div>
+                <div class="seBd">
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-goutong"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>需求沟通</h1>
+                            <p>客户提出网站建设的基本需求，包括设计要求及功能要求</p>
+                        </div>
+                    </div>
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-xiangmupinggu1"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>项目评估</h1>
+                            <p>根据客户提出的需求进行评估，估算出相应的时间与费用</p>
+                        </div>
+                    </div>
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-weichexiangmutubiaoku_qiandinghetong"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>签订合同</h1>
+                            <p>合作双方确认费用、工期、合作要求的基础上，双方共同签订合同</p>
+                        </div>
+                    </div>
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-tuandui"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>提案阶段</h1>
+                            <p>完成网站初稿DEMO设计，包括首页风格，内页风格页面</p>
+                        </div>
+                    </div>
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-pushpin"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>制作阶段</h1>
+                            <p>客户提出网站建设的基本需求，包括设计要求及功能要求</p>
+                        </div>
+                    </div>
+                    <div class="seBdBox">
+                        <div class="seBdBoxIcon">
+                            <span></span>
+                            <i class="iconfont icon-xiangmupinggu"></i>
+                        </div>
+                        <div class="seBdBoxText">
+                            <h1>网站验收</h1>
+                            <p>根据合同条款进行网站验收，并签署网站验收确认单</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 案例赏析 -->
+        <section class="bgColorWhite">
+            <div class="case content">
+                <div class="hd">
+                    <h1><span>SERVIC</span>案例赏析</h1>
+                </div>
+                    <div class="caseBdBig">
+                        <a href=""><img src="https://pic.imgdb.cn/item/647dceff1ddac507ccf9617f.jpg" alt="your-image-description" style="width:300px;height:300px;">
+</a>    
+                    <div class="caseBdBigMask">                 
+                          <div class="caseBdBigMaskText">
+                                <h1>北沐博客</h1>
+                                <p>分享交流免费</p>
+                                <a href="http://bm.ktbf.xyz/" class="iconfont icon-duanjiantou"></a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="caseBdBig">
+                        <a href=""><img src="https://pic.imgdb.cn/item/63e3a1644757feff3398b053.jpg" alt="your-image-description" style="width:300px;height:300px;">
+</a>    
+                    <div class="caseBdBigMask">                 
+                          <div class="caseBdBigMaskText">
+                                <h1>贝塔博客</h1>
+                                <p>免费分享优质资源</p>
+                                <a href="http://11cty.com" class="iconfont icon-duanjiantou"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <section class="bgColorWhite">
+            <div class="case content">
+                <div class="hd">
+                    <h1><span>视频剪辑</span>案例赏析</h1>
+                   
+      <video width="360" height="360" controls>
+  <source src="https://alimov2.a.kwimgs.com/upic/2023/03/25/12/BMjAyMzAzMjUxMjIwMThfMTk0MzA5MzE1NV85ODk1MzM5MjMyMV8yXzM=_b_B7c4dd6668c68983a2f6907ac1e6599cf.mp4?clientCacheKey=3xgh6rbft96t6d2_b.mp4&tt=b&di=6f0ce672&bp=10000" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+     <!-- <video width="360" height="360" controls>
+  <source src="http://8.130.43.255:5212/f/5OpTz/mmexport1684632918376.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+                    <!--div class="caseBdBig">
+                        <a href=""><img src="./images/ca03.png" alt=""></a>
+                        <div class="caseBdBigMask">
+                            <div class="caseBdBigMaskText">
+                                <h1>过客API接口</h1>
+                                <p>免费的API调用平台</p>
+                                <a href="javascript" class="iconfont icon-duanjiantou"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="caseBdBig">
+                        <a href=""><img src="./images/ca04.png" alt=""></a>
+                        <div class="caseBdBigMask">
+                            <div class="caseBdBigMaskText">
+                                <h1>过客API接口</h1>
+                                <p>免费的API调用平台</p>
+                                <a href="javascript" class="iconfont icon-duanjiantou"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 核心成员 -->
+        <section class="bgColorDefault">
+            <div class="member content">
+                <div class="hd">
+                    <h1><span>MEMBER</span>核心成员</h1>
+                </div>
+                <div class="memberBd">
+                    <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=3542545505&spec=640&img_type=jpg" alt="">
+                        <h1>北沐</h1>
+                        <p>前后端工程师/剪辑师/软件开发程序员</p>
+                        <i>01</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：3542545505</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享开源的程
+                                序员</span>
+                        </div>
+                    </div>
+                                        <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=1248194057&spec=640&img_type=jpg" alt="">
+                        <h1>Agoni</h1>
+                        <p>剪辑师</p>
+                        <i>02</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：1248194057</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享的视频剪辑师</span>
+                        </div>
+                    </div>
+                    <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=823188901&spec=640&img_type=jpg" alt="">
+                        <h1>贝塔</h1>
+                        <p>前段工程师</p>
+                        <i>03</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：823188901</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享开源的程
+                                序员</span>
+                        </div>
+                    </div>
+                    <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=3446744308&spec=640&img_type=jpg" alt="">
+                        <h1>易楠枫</h1>
+                        <p>计算机工程师</p>
+                        <i>04</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：3446744308</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享开源的程
+                                序员</span>
+                        </div>
+                    </div>
+                    <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=3151682584&spec=640&img_type=jpg" alt="">
+                        <h1>椿湫</h1>
+                        <p>前段工程师</p>
+                        <i>05</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：3151682584</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享开源的程
+                                序员</span>
+                        </div>
+                    </div>
+                    <div class="memberBdBox">
+                        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=2837997474&spec=640&img_type=jpg" alt="">
+                        <h1>小妖王</h1>
+                        <p>软件 人工智能工程师</p>
+                        <i>06</i>
+                        <div class="memberBdBoxMask">
+                            <h2>QQ：2837997474</h2>
+                            <span>热爱、奉献、无私、一
+                                个热衷于分享开源的程
+                                序员</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- 我们 -->
+        <section class="bgColorWhite">
+            <div class="navlist content">
+                <div class="hd">
+                    <h1><span>MEMBER</span>我们</h1>
+                </div>
+                <!--div class="navlistBd">
+                    <div class="navlistBdBox">
+                        <div class="navlistBdBoxTime">
+                            <h1>05-13</h1>
+                            <span class="iconfont icon-duanjiantou"></span>
+                        </div>
+                        <div class="navlistBdBoxTitle">
+                            <h1>本站成立了</h1>
+                            <p>本站页面全部是由一人独立完成构图、设计、编码、上线</p>
+                        </div>
+                    </div>
+                    <div class="navlistBdBox">
+                        <div class="navlistBdBoxTime">
+                            <h1>05-13</h1>
+                            <span class="iconfont icon-duanjiantou"></span>
+                        </div>
+                        <div class="navlistBdBoxTitle">
+                            <h1>本站成立了</h1>
+                            <p>本站页面全部是由一人独立完成构图、设计、编码、上线</p>
+                        </div>
+                    </div>
+                    <div class="navlistBdBox">
+                        <div class="navlistBdBoxTime">
+                            <h1>05-13</h1>
+                            <span class="iconfont icon-duanjiantou"></span>
+                        </div>
+                        <div class="navlistBdBoxTitle">
+                            <h1>本站成立了</h1>
+                            <p>本站页面全部是由一人独立完成构图、设计、编码、上线</p>
+                        </div>
+                    </div>
+                    <div class="navlistBdBox">
+                        <div class="navlistBdBoxTime">
+                            <h1>05-13</h1>
+                            <span class="iconfont icon-duanjiantou"></span>
+                        </div>
+                        <div class="navlistBdBoxTitle">
+                            <h1>本站成立了</h1>
+                            <p>本站页面全部是由一人独立完成构图、设计、编码、上线</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="Seemore" href="404.html">查看更多 <span class="iconfont icon-duanjiantou"></span></a>
+            </div>
+        </section>
+    </main>
+    <!-- 文字说明图 -->
+    <!--div class="chart">
+        <img src="./images/bg.png" alt="文字说明背景图">
+        <div class="chartText">
+            <h1>已服务99+的用户</h1>
+            <a href="">联系我们</a>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="footer content">
+            <div class="forHelp">
+                <dl>
+                    <dt>友情链接</dt>
+                    <dd><a href="https://idc.mtcfgzs.top">凡鲸互联</a></dd>
+                    <dd><a href="http://11cty.com">贝塔博客</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                </dl>
+            </div>
+            <div class="forDetails">
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd><i class="iconfont icon-fl-renyuan"></i> 关注我们，获取最新动态信息</dd>
+                    
+                    <dd><i class="iconfont icon-position"></i> 凡鲸网络工作室</dd>
+                    <dd><i class="iconfont icon-QQ"></i> QQ：3542545505</dd>
+                    <dd><i class="iconfont icon-youxiang"></i> 邮箱：beimu.icu@qq.com</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="FooterSeparate">
+            <div class="content">
+                <div class="footerLogo">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="footrCopyright">
+                    <p>Copyright © 2022 All Rights Reserved. 凡鲸网络工作室 版权所有</p>
+                    <a href="">豫ICP备2021004613号</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- goBack -->
+    <div class="goBack">
+        <span class="iconfont icon-top"></span>
+    </div>
+    <script src="./js/animate.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // autoplay: {
+            //     delay: 10000,//10秒切换一次
+            // },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
