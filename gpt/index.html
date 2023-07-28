@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- 声明文档类型为HTML5 -->
+<html>
+<head>
+<!-- 设置页面标题 -->
+<title>Free Chat</title>
+<!-- 设置页面样式 -->
+<style type="text/css">
+/* 设置页面背景色和字体 */
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+/* 设置页面标题样式 /
+h1 {
+margin-top: 50px;
+font-size: 60px;
+font-weight: bold;
+/ 设置标题渐变背景色 /
+background: linear-gradient(to right, #00bfff, #00ff00);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/ 设置标题阴影 */
+text-shadow: 2px 2px #cccccc;
+}
+
+/* 设置按钮容器样式 */
+.button-container {
+position: relative;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+/* 设置按钮样式 */
+.button {
+display: inline-block;
+margin: 10px;
+padding: 10px 20px;
+background-color: #000000;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 2px 2px #cccccc;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+/* 设置按钮鼠标悬停样式 */
+.button:hover {
+background-color: #333333;
+}
+
+/* 设置页脚样式 */
+.footer {
+margin-top: 50px;
+font-size: 16px;
+color: #333333;
+}
+
+/* 设置页脚链接样式 */
+.footer a {
+color: #333333;
+text-decoration: none;
+}
+
+/* 设置页脚链接鼠标悬停样式 */
+.footer a:hover {
+color: #666666;
+}
+
+/* 设置主题切换按钮样式 */
+.switch {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #000000;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 2px 2px #cccccc;
+transition: background-color 0.3s ease;
+}
+
+/* 设置主题切换按钮鼠标悬停样式 */
+.switch:hover {
+background-color: #333333;
+}
+
+/* 设置白色主题样式 */
+.white {
+background-color: #f2f2f2;
+color: black;
+}
+
+/* 设置黑色主题样式 */
+.black {
+background-color: #212129;
+color: white;
+}
+
+/* 设置抖音小店按钮样式 */
+.shop-btn {
+position: absolute;
+top: 0;
+right: calc(50% + 110px);
+display: inline-block;
+padding: 4px 8px;
+background-color: #ff69b4;
+color: white;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 1px 1px #cccccc;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+/* 设置抖音小店按钮鼠标悬停样式 */
+.shop-btn:hover {
+background-color: #ff1493;
+}
+
+/* 设置容器样式 */
+.container {
+max-width: 390px;
+margin: 0 auto;
+}
+
+/* 设置页脚文字颜色 */
+.footer span {
+color: #cccccc;
+}
+
+/* 设置黑色主题下页脚文字颜色 */
+.black .footer span {
+color: #666666;
+}
+
+/* 设置版本号样式 */
+.version {
+position: absolute;
+top: 60px;
+right: 60px;
+padding: 10px;
+font-weight: bold;
+color: black;
+background-color: #ffffff;
+}
+
+/* 设置黑色主题下版本号样式 */
+.black .version {
+color: white;
+background-color: #212129;
+}
+</style>
+</head>
+<body class="container white">
+<!-- 设置页面标题 -->
+<h1>Chat  GPT</h1>
+<!-- 设置页面提示信息 -->
+<p>请选择使用线路</p>
+<!-- 设置按钮容器 -->
+<div class="button-container">
+<!-- 设置按钮链接，打开新窗口 -->
+<a href="https://chat.1.bnu120.space/" target="_blank"><button class="button">跳转到线路1</button></a>
+<a href="https://chat.2.bnu120.space/" target="_blank"><button class="button">跳转到线路2</button></a>
+<a href="https://chat.3.bnu120.space/" target="_blank"><button class="button">跳转到线路3</button></a>
+<a href="https://chat.4.bnu120.space/" target="_blank"><button class="button">跳转到线路4</button></a>
+<a href="https://chat.5.bnu120.space/" target="_blank"><button class="button">跳转到线路5</button></a>
+
+</div>
+<!-- 设置页面页脚 -->
+<div class="footer">网站由凡鲸网络收集<span><br>(如果某条线路不可用，请及时联系我更新.技术支持：北沐)</span><a href="http://101.35.120.60/" target="_blank"><button class="button">了解更多</button></a></div>
+<!-- 设置版本号 -->
+<div class="version">V:2.0</div>
+<!-- 设置主题切换按钮 -->
+<button class="switch" onclick="toggleTheme()">切换主题</button>
+<!-- 设置抖音小店按钮，打开新窗口 -->
+
+<!-- 设置JavaScript脚本 -->
+<script type="text/javascript">
+// 定义主题切换函数
+function toggleTheme() {
+var body = document.getElementsByTagName("body")[0];
+// 判断当前页面主题
+if (body.classList.contains("white")) {
+// 切换到黑色主题
+body.classList.remove("white");
+body.classList.add("black");
+} else {
+// 切换到白色主题
+body.classList.remove("black");
+body.classList.add("white");
+}
+}
+</script>
+</body>
+</html>
